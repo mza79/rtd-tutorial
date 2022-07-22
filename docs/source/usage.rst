@@ -1,34 +1,93 @@
 Usage
 =====
 
-.. _installation:
+Writing Content
+---------------
+Under /docs/ directory, open a .rst file that you want to edit
+with Github or your favourite text editor. 
 
-Installation
-------------
+Enter some text to the file then save and commit to the branch.
 
-To use Lumache, first install it using pip:
+Viewing the Content
+-------------------
+Editing .rst files using Github, you can click the preview button 
+.. image:: /Media/Images/preview.png
+   :width: 200px
+   :height: 100px
+   :scale: 50 %
+   :alt: alternate text
+   :align: right
 
-.. code-block:: console
+How to Write Headers
+--------------------
+.. code-block::
 
-   (.venv) $ pip install lumache
+   This is a Section Header
+   ========================
 
-Creating recipes
+And all the other header types:
+
+* # for parts header, with overline, 
+* * for chapters header, with overline, 
+* = for sections header
+* - for subsections header
+* ^ for subsubsections header
+* " for paragraphs header
+
+
+How to Write Lists
+------------------
+
+How to add Notes
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+How to add Images
+-----------------
 
-.. autofunction:: lumache.get_random_ingredients
+Styling your Documentations
+---------------------
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+Bold
+^^^^
 
-.. autoexception:: lumache.InvalidKindError
+Italic
+^^^^^^
 
-For example:
+HyperLinks
+^^^^^^^^^^
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+Document Wise Links
+^^^^^^^^^^^^^^^^^^^
+
+Styling FileNames
+^^^^^^^^^^^^^^^^^
+
+Styling Buttons
+^^^^^^^^^^^^^^^
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
