@@ -7,4 +7,7 @@ And you are ready to edit the docs.
 Configuring Read the Docs Enviroment
 ------------------------------------
 
-install: installs `common default dependencies<https://docs.readthedocs.io/en/stable/build-default-versions.html>_`
+In the file ``.readthedocs.yaml``, you can edit the enviroment setup
+for building the documentation.
+
+install: installs `default common dependencies<https://docs.readthedocs.io/en/stable/build-default-versions.html>_`
