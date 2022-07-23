@@ -54,7 +54,7 @@ This is a list.
    #. and another number list, item 1
    #. another number list, item 2
 
-.. code-block::
+.. code-block:: 
    This is a list.
       * point list item 1
       * point list item 2
@@ -66,15 +66,17 @@ This is a list.
 
 How to add Notes
 ----------------
-.. note::
+.. note:: rst
    This is a Note, and here's how you can use it.
-   '.. note::'
+   
+   .. note::
    This is a Note, and here's how you can use it.
 
 How to add Tips
 ---------------
 .. tip::
-   You can use tips like this\: ..tip:: followed by the tips that you want to write.
+   You can use tips like this:
+        \: ..tip:: followed by the tips that you want to write.
 
 How to add Images
 -----------------
@@ -84,11 +86,18 @@ You can add beutiful images too with this code:
    :align: center
    :alt: this is a beautiful image
 
-.. code-block:: 
-   '.. image:: /Media/Images/beautiful-image.jpg'
-      :width: 80%
-      :align: center
-      :alt: this is a beautiful image
+.. image:: ../Media/Images/beautiful-image.jpg
+   :width: 80%
+   :align: center
+   :alt: this is a beautiful image
+
+.. code-block:: RST
+  
+    .. image:: ../Media/Images/beautiful-image.jpg
+        :width: 80%
+        :align: center
+        :alt: this is a beautiful image
+
 
 Styling your Documentations
 ---------------------
@@ -109,7 +118,13 @@ Literal blocks
 ^^^^^^^^^^^^^^
 this is how you write a block of text: 
 
-.. code-block::
+.. code-block:: rst
+
+   .. code-block::
+   This is a block of text
+
+.. code-block:: RST
+
    .. code-block::
    This is a block of text
 
@@ -117,12 +132,14 @@ Labels
 ^^^^^^
 This is a :guilabel:`Label` and it can be used as this
 .. code-block:: 
+
    This is a :guilabel:`Label`
 
 HyperLinks
 ^^^^^^^^^^
 This is a link to `Document Home <https://mza79-rtd-tutorial.readthedocs.io/en/stable/index.html>`_
 .. code-block::
+
    This is a link to `Document Home <https://mza79-rtd-tutorial.readthedocs.io/en/stable/index.html>`_
 
 Technical Terms
@@ -131,6 +148,8 @@ Technical terms are defined in a glossary file which has this declaration at the
 ``.. glossary::``
 
 This is a :term:`technical term`, and it can be used with:
+
 .. code-block::
+
    :term:`technical term text`
 
