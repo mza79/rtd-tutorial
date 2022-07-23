@@ -20,4 +20,5 @@ Table of Contents
 .. toctree::
    installation
    usage
-
+   advanced
+   glossary

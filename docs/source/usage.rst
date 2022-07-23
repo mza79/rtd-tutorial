@@ -69,7 +69,7 @@ How to add Notes
 .. note::
    This is a Note, and here's how you can use it.
 
-.. code-block::
+.. code-block::RST
    .. note::
    This is a Note, and here's how you can use it.
 
@@ -81,13 +81,13 @@ How to add Tips
 How to add Images
 -----------------
 You can add beutiful images too with this code:
-.. figure:: /Media/Images/beautiful-image.jpg
+.. image:: /Media/Images/beautiful-image.jpg
    :width: 80%
    :align: center
    :alt: this is a beautiful image
 
-.. code-block::
-   .. figure:: /Media/Images/beautiful-image.jpg
+.. code-block:: RST
+   .. image:: /Media/Images/beautiful-image.jpg
       :width: 80%
       :align: center
       :alt: this is a beautiful image
@@ -110,7 +110,7 @@ Text wrapped like \`\`this\`\` is for ``code sample``.
 Literal blocks
 ^^^^^^^^^^^^^^
 this is how you write a block of texts.
-.. code-block::
+.. code-block:: RST
    .. code-block::
    This is a block of text
 
@@ -123,7 +123,7 @@ This is a :guilabel:`Label` and it can be used as this
 HyperLinks
 ^^^^^^^^^^
 This is a link to `Document Home <https://mza79-rtd-tutorial.readthedocs.io/en/stable/index.html>`_
-.. code-block:: 
+.. code-block:: RST
    This is a link to `Document Home <https://mza79-rtd-tutorial.readthedocs.io/en/stable/index.html>`_
 
 Technical Terms
@@ -132,7 +132,7 @@ Technical terms are defined in glossary file with this declaration:
 ``.. glossary::``
 
 This is a :term:`technical term`, and it can be used with:
-.. code-block:: 
+.. code-block:: RST
    :term:`technical term text`
 
 
