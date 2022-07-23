@@ -128,9 +128,13 @@ This is a link to `Document Home <https://mza79-rtd-tutorial.readthedocs.io/en/s
 
 Technical Terms
 ^^^^^^^^^^^^^^^
+Technical terms are defined in glossary file with this declaration:
+``.. glossary::``
+
 This is a :term:`technical term`, and it can be used with:
 .. code-block:: 
    :term:`technical term text`
+
 
 
 
