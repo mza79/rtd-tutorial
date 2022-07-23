@@ -19,8 +19,7 @@ Table of Contents
 
 .. toctree::
    :maxdepth: 2
-   
+
    installation
-   /usage
-   advanced
+   /usage/index
    glossary

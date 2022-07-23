@@ -3,5 +3,6 @@ Usage
 
 .. toctree::
    usage
+   advanced
 
 
