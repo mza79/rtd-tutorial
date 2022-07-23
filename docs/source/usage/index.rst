@@ -13,8 +13,8 @@ Viewing the Content
 The most important thing about developing is viewing your change.
 
 After adding content to your file. Make a commit in your Git branch 
-and go to your hyperlink<https://readthedocs.org/projects/mza79-rtd-tutorial/builds/>
-and check for build status. If build successful, you can click the completed
+and go to `Document Builds <https://readthedocs.org/projects/mza79-rtd-tutorial/builds/>`_
+Check for build status, if build successful, you can click the completed
 build then click the buttons :guilabel:`view docs` on the right to view your change.
 
 How to Write Headers
@@ -66,15 +66,14 @@ This is a list.
 
 How to add Notes
 ----------------
-.. note::RST
+.. note::
    This is a Note, and here's how you can use it.
-
-   .. note::
+   '.. note::'
    This is a Note, and here's how you can use it.
 
 How to add Tips
 ---------------
-.. tip::RST
+.. tip::
    You can use tips like this\: ..tip:: followed by the tips that you want to write.
 
 How to add Images
@@ -86,7 +85,7 @@ You can add beutiful images too with this code:
    :alt: this is a beautiful image
 
 .. code-block:: 
-   .. image:: /Media/Images/beautiful-image.jpg
+   '.. image:: /Media/Images/beautiful-image.jpg'
       :width: 80%
       :align: center
       :alt: this is a beautiful image
@@ -100,7 +99,7 @@ Text wrapped like \*\*this\*\* is **Bolded**.
 
 Italic
 ^^^^^^
-Text wrapped like \*this\*is *Italic*.
+Text wrapped like \*this\* is *Italic*.
 
 Italic
 ^^^^^^
@@ -110,7 +109,7 @@ Literal blocks
 ^^^^^^^^^^^^^^
 this is how you write a block of text: 
 
-.. code-block:: RST
+.. code-block::
    .. code-block::
    This is a block of text
 
@@ -123,7 +122,7 @@ This is a :guilabel:`Label` and it can be used as this
 HyperLinks
 ^^^^^^^^^^
 This is a link to `Document Home <https://mza79-rtd-tutorial.readthedocs.io/en/stable/index.html>`_
-.. code-block:: RST
+.. code-block::
    This is a link to `Document Home <https://mza79-rtd-tutorial.readthedocs.io/en/stable/index.html>`_
 
 Technical Terms
@@ -132,7 +131,7 @@ Technical terms are defined in a glossary file which has this declaration at the
 ``.. glossary::``
 
 This is a :term:`technical term`, and it can be used with:
-.. code-block:: RST
+.. code-block::
    :term:`technical term text`
 
 
