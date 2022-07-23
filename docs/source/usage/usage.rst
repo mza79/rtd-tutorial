@@ -69,27 +69,23 @@ How to add Notes
 .. note:: rst
    This is a Note, and here's how you can use it.
    
-   .. note::
-   This is a Note, and here's how you can use it.
+   | .. note::
+   | This is a Note, and here's how you can use it.
 
 How to add Tips
 ---------------
 .. tip::
    You can use tips like this:
-        \: ..tip:: followed by the tips that you want to write.
+        | \: ..tip:: followed by the tips that you want to write.
 
 How to add Images
 -----------------
 You can add beutiful images too with this code:
-.. image:: /Media/Images/beautiful-image.jpg
-   :width: 80%
-   :align: center
-   :alt: this is a beautiful image
-
 .. image:: ../Media/Images/beautiful-image.jpg
    :width: 80%
    :align: center
    :alt: this is a beautiful image
+
 
 .. code-block:: RST
   
@@ -123,11 +119,6 @@ this is how you write a block of text:
    .. code-block::
    This is a block of text
 
-.. code-block:: RST
-
-   .. code-block::
-   This is a block of text
-
 Labels
 ^^^^^^
 This is a :guilabel:`Label` and it can be used as this
@@ -138,6 +129,7 @@ This is a :guilabel:`Label` and it can be used as this
 HyperLinks
 ^^^^^^^^^^
 This is a link to `Document Home <https://mza79-rtd-tutorial.readthedocs.io/en/stable/index.html>`_
+
 .. code-block::
 
    This is a link to `Document Home <https://mza79-rtd-tutorial.readthedocs.io/en/stable/index.html>`_
