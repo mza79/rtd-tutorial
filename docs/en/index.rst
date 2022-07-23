@@ -1,10 +1,11 @@
 Welcome to How to Use Read the Docs Documentation!
 ===================================
 
-Read the Docs description...
+Read the Docs is a documentaion tool that simplifies documentation process
+and automizes the build, versioning and hosting for you.
 
-
-Document description...
+This document aims to introduce you to how to use Read the Docs,
+and how to write contents to this documentaion.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
@@ -22,4 +23,6 @@ Table of Contents
 
    installation
    /usage/index
+   api
    glossary
+   additional

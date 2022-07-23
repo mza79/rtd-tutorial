@@ -66,22 +66,23 @@ This is a list.
 
 How to add Notes
 ----------------
-.. note:: rst
+.. note:: 
    This is a Note, and here's how you can use it.
    
    | .. note::
-   | This is a Note, and here's how you can use it.
+   |      followed by the notes that you want to write.
 
 How to add Tips
 ---------------
 .. tip::
    You can use tips like this:
-        | \: ..tip:: followed by the tips that you want to write.
+        | .. tip:: 
+        |   followed by the tips that you want to write.
 
 How to add Images
 -----------------
 You can add beutiful images too with this code:
-.. image:: ../Media/Images/beautiful-image.jpg
+.. image:: /Media/Images/beautiful-image.jpg
    :width: 80%
    :align: center
    :alt: this is a beautiful image
@@ -143,5 +144,5 @@ This is a :term:`technical term`, and it can be used with:
 
 .. code-block::
 
-   :term:`technical term text`
+   :term:`technical term`
 

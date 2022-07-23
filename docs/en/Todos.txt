@@ -1,7 +1,5 @@
 Problems:
-1. Notes section code block not working 1
-
-2. Tips section need new line, and spacing 1
+1. Notes section Tips section 
 
 3. Literal blocks section not showing test 2
 
