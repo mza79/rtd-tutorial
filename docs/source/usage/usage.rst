@@ -1,5 +1,5 @@
-Usage
-=====
+Basics usage
+============
 
 Writing Content
 ---------------
@@ -82,7 +82,7 @@ How to add Tips
 How to add Images
 -----------------
 You can add beutiful images too with this code:
-.. image:: /Media/Images/beautiful-image.jpg
+.. image:: ../Media/Images/beautiful-image.jpg
    :width: 80%
    :align: center
    :alt: this is a beautiful image
