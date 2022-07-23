@@ -1,3 +1,7 @@
+Usage
+=====
+
 .. toctree::
-   Usage
+   usage
+
 
