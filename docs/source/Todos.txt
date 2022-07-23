@@ -1,0 +1,17 @@
+Problems:
+1. Notes section code block not working
+
+2. Tips section need new line, and spacing
+
+3. Literal blocks section not showing
+
+4. multiple section dangling end
+
+Advanced section
+
+Index intro
+
+Installation
+
+Fixed:
+moved media folder under source
