@@ -7,13 +7,8 @@ And you are ready to edit the docs.
 Configuring Project
 -------------------
 
-In the file ``conf.py``, you can edit the project version info by
-assigning a verision number to variable **version**
-
-.. code-block:: python
-
-    release = '0.1'
-    version = '0.1.0'
+In the build configuration file ``conf.py``, you can edit the configuration
+to customize Sphinx input and output behavior.
 
 project
 """""""
@@ -34,6 +29,15 @@ version
 release
 """"""
     The full project version, eg. for python, the release may be 3.8.3
+
+.. code-block:: python
+
+    project = 'How to Use Read the Docs Documentation '
+    copyright = '2022,Tom Zhang'
+    author = 'Tom Zhang'
+
+    release = '0.1'
+    version = '0.1.0'
 
 
 You can add and enable extensions to your project by adding the extension name
