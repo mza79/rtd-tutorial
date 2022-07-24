@@ -6,7 +6,7 @@ File Structuring
 You can structure and organize your documentations files using file
 structures.
 
-And here's how you organize `.rst` files into your documentation page:
+And here's how you organize ``.rst`` files into your documentation page:
 
 .. code:: rst
     .. toctree::
@@ -14,7 +14,7 @@ And here's how you organize `.rst` files into your documentation page:
         /subdirectory/index
         .rst file 2
 
-In your `index.rst`, add `.rst` files under `.. toctree::`, then they will appear
+In your ``index.rst``, add ``.rst`` files under ``.. toctree::``, then they will appear
 as a child page of your index page.
 
 You can also organize sections of documentaion into subdirectories and you can
