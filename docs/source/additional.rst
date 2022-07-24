@@ -1,7 +1,7 @@
 Additional Information
 ======================
 
-This documentaion is merely a simplest guide towards using Read the Docs.
+This documentaion is merely a simplest guide for using Read the Docs.
 
 For more techniques on how to write documentations using Read the Docs,
 Please visit `Read the Docs document page <https://docs.readthedocs.io/en/stable/index.html>`_

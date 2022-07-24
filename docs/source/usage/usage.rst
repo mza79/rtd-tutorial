@@ -107,8 +107,8 @@ Italic
 ^^^^^^
 Text wrapped like \*this\* is *Italic*.
 
-Italic
-^^^^^^
+code sample
+^^^^^^^^^^^
 Text wrapped like \`\`this\`\` is for ``code sample``.
 
 Literal blocks
