@@ -24,7 +24,10 @@ Localization of Documentation
 ------------------------------
 
 Adding Additional languages to your documentation can be done
-by creating another git project, then go to `document project page <https://readthedocs.org/projects/mza79-rtd-tutorial/>`_
+by creating another git project, then go to the new created document project page.
+Click :guilabel:`⚙ Admin` and change the language field to the corresponing language.
+
+Then go to `main document project page <https://readthedocs.org/projects/mza79-rtd-tutorial/>`_
 , click :guilabel:`⚙ Admin`, and go to translations, add the project and select the language.
 Then you can see the languages option in the ``flyout menu``.
 

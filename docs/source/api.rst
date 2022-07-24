@@ -18,5 +18,4 @@ And here is the result
 .. autosummary::
    :toctree: generated
 
-
    api
