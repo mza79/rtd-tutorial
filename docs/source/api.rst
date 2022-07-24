@@ -11,6 +11,8 @@ It can be done using the following code.
    .. autosummary::
       :toctree: generated
 
+      python-file-name
+
 And here is the result 
 
 .. autosummary::
