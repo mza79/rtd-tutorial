@@ -83,14 +83,14 @@ How to add Images
 -----------------
 You can add beutiful images too with this code:
 
-.. image:: /Media/Images/beautiful-image.jpg
+.. image:: ../Media/Images/beautiful-image.jpg
    :width: 80%
    :align: center
    :alt: this is a beautiful image
 
 .. code-block:: RST
   
-    .. image:: /Media/Images/beautiful-image.jpg
+    .. image:: ../Media/Images/beautiful-image.jpg
         :width: 80%
         :align: center
         :alt: this is a beautiful image
