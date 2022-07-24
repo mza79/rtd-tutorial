@@ -1,9 +1,9 @@
+"""
+api - containing functions that we all love
+"""
+
 from datetime import datetime
 from time import strftime
-
-"""
-apis containing functions that we all love
-"""
 
 __version__ = "0.1.0"
 
