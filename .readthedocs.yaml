@@ -8,7 +8,7 @@ build:
 python:
   # Install our python package before building the docs
   install:
-    - requirements: docs/dependencies.txt
+    - requirements: docs/requirements.txt
     - method: pip
       path: .    
 
