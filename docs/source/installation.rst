@@ -38,6 +38,7 @@ release
 
 You can add and enable extensions to your project by adding the extension name
 to the extension's list
+
 .. code-block:: python
 
    extensions = [
@@ -66,6 +67,7 @@ version
 verision of the configuration file ``.readthedocs.yaml``
 
 Example
+
 .. code-block:: yaml
     version: 2
 
@@ -83,7 +85,9 @@ several tools: Python, Node.js, Rust, and Go.
 the documentaion build.
 
 Example
+
 .. code-block:: yaml
+
     build:
         os: "ubuntu-20.04"
         tools:
@@ -101,6 +105,7 @@ python
 Configuration of the Python environment to be used.
 
 .. code-block:: yaml
+
     verision: 2
     python:
         install:
@@ -114,7 +119,9 @@ Configuration of the Python environment to be used.
         system_packages: true
 
 Example
+
 .. code-block:: yaml
+
     build:
         os: "ubuntu-20.04"
         tools:
@@ -124,7 +131,9 @@ sphinx
 """"""
 
 Configuration for Sphinx documentation (this is the default documentation type).
+
 .. code-block:: yaml
+
     version: 2
 
     sphinx:
@@ -138,7 +147,9 @@ formats
 Additional formats of the documentation to be built, apart from the default HTML.
 
 Example
+
 .. code-block:: yaml
+
     formats:
         - pdf
         - epub

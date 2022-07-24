@@ -22,5 +22,5 @@ add them to your doc tree as well.
 
 Localization of Documentation
 ------------------------------
-You can add Localization support to your documentaion
+WIP
 
